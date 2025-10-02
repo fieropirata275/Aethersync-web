@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: #f5f5f5;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+.hero .logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 2rem;
+  margin: 40px 0 20px;
+}
+p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  font-size: 0.9rem;
+  color: #aaa;
+}
