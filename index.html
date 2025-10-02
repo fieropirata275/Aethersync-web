@@ -4,31 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AetherSync</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      scroll-behavior: smooth;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      max-width: 600px;
+      margin-bottom: 2rem;
+      color: #ccc;
+    }
+    .btn {
+      background: #1a73e8;
+      color: white;
+      padding: 14px 28px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:hover {
+      background: #0f5bd7;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <header class="hero">
-    <img src="assets/logo.svg" alt="AetherSync Logo" class="logo">
-    <h1>AetherSync</h1>
-    <p>Sincronización segura en la nube, a tu manera.</p>
-  </header>
-
-  <main>
-    <section class="features">
-      <h2>Características</h2>
-      <p>Almacenamiento privado, rápido y seguro para tus archivos.</p>
-    </section>
-    <section class="about">
-      <h2>Sobre nosotros</h2>
-      <p>AetherSync es una plataforma diseñada para simplificar tu vida digital.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 AetherSync. Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <h1>AetherSync</h1>
+  <p>La nube privada y segura para tus archivos, potenciada por Nextcloud y diseñada para ti.</p>
+  <a href="https://cloud.aethersync.net" class="btn">Ir a AetherSync Cloud</a>
+  <footer>© 2025 AetherSync</footer>
 </body>
 </html>
