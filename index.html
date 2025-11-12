@@ -90,7 +90,7 @@
     opacity: 0.3;
   }
 
-  /* Tarjeta de contacto corporativa */
+  /* Tarjeta de contacto */
   .contact-card {
     position: absolute;
     bottom: 70px;
@@ -141,6 +141,12 @@
     color: var(--primary);
     font-weight: bold;
   }
+
+  /* Ajuste para que el chat no tape el contenido */
+  call-us-selector {
+    position: fixed !important;
+    z-index: 9999 !important;
+  }
 </style>
 </head>
 <body>
@@ -155,7 +161,7 @@
   <button onclick="window.open('http://2.57.108.28:2334/', '_blank')">🔐 CloudOTP (NEW!)</button>
 </div>
 
-<!-- Tarjeta de contacto corporativa -->
+<!-- Tarjeta de contacto -->
 <div class="contact-card">
   <h2>Contacto</h2>
   <p>Teléfono: <a href="tel:+34936942102">+34 936 942 102</a></p>
@@ -167,6 +173,10 @@
 </div>
 
 <footer>© 2025 Aethersync Systems — Todos los derechos reservados</footer>
+
+<!-- Widget de Live Chat 3CX -->
+<script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js"></script>
+<call-us-selector phonesystem-url="https://1733.3cx.cloud" party="LiveChat43068"></call-us-selector>
 
 <script>
 const c = document.getElementById('bg');
